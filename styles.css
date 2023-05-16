@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+    background-size: cover;
+    text-align: center;
+
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+  }
+  
+  th {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  /*tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }*/
+  
+  .dice-animation {
+    width: 100px;
+    height: 100px;
+    background-image: url("dice-anim.gif");
+    background-size: cover;
+    display: inline-block;
+    animation: diceRoll 1s steps(6) infinite;
+  }
+  
+  @keyframes diceRoll {
+    from { background-position: 0 0; }
+    to { background-position: -600px 0; }
+  }
+  
+  .dice-img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .winner {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .zmagovalci-container {
+    display: inline-block;
+    text-align: left;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .zmagovalci-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .zmagovalci-container li {
+    margin: 10
+  }  
